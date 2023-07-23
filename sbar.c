@@ -104,7 +104,7 @@ cvar_t sbar_miniscoreboard_size = {CVAR_SAVE, "sbar_miniscoreboard_size", "-1", 
 cvar_t sbar_flagstatus_right = {CVAR_SAVE, "sbar_flagstatus_right", "0", "moves Nexuiz flag status icons to the right"};
 cvar_t sbar_flagstatus_pos = {CVAR_SAVE, "sbar_flagstatus_pos", "115", "pixel position of the Nexuiz flag status icons, from the bottom"};
 cvar_t sbar_info_pos = {CVAR_SAVE, "sbar_info_pos", "0", "pixel position of the info strings (such as showfps), from the bottom"};
-cvar_t sbar_digits = { CVAR_SAVE, "sbar_digits", "0", "sets the statusbar capacity for ammo, health and armor" };//alex3474247
+cvar_t sbar_digits = { CVAR_SAVE, "sbar_digits", "3", "sets the statusbar capacity for ammo, health and armor" };//alex3474247
 
 cvar_t cl_deathscoreboard = {0, "cl_deathscoreboard", "1", "shows scoreboard (+showscores) while dead"};
 
